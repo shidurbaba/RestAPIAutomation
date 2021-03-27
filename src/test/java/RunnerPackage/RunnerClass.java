@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "C:\\Users\\moses\\IdeaProjects\\RESTAPI_Automation\\src\\test\\java\\cucumber\\RESTAPI.feature",
+        features = "C:\\Users\\moses\\IdeaProjects\\RestAPIAutomation\\src\\test\\java\\cucumber\\RESTAPI.feature",
         glue = {"stepDef"},
         tags = {"@SmokeTest_01"},
         dryRun = false
